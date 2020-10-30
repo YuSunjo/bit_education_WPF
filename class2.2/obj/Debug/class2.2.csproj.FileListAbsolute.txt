@@ -1,0 +1,15 @@
+C:\Users\tnswh\sunjo\bit_education_WPF\class2.2\bin\Debug\class2.2.exe.config
+C:\Users\tnswh\sunjo\bit_education_WPF\class2.2\bin\Debug\class2.2.exe
+C:\Users\tnswh\sunjo\bit_education_WPF\class2.2\bin\Debug\class2.2.pdb
+C:\Users\tnswh\sunjo\bit_education_WPF\class2.2\obj\Debug\class2.2.csprojAssemblyReference.cache
+C:\Users\tnswh\sunjo\bit_education_WPF\class2.2\obj\Debug\MainWindow.g.cs
+C:\Users\tnswh\sunjo\bit_education_WPF\class2.2\obj\Debug\App.g.cs
+C:\Users\tnswh\sunjo\bit_education_WPF\class2.2\obj\Debug\class2.2_MarkupCompile.cache
+C:\Users\tnswh\sunjo\bit_education_WPF\class2.2\obj\Debug\class2.2_MarkupCompile.lref
+C:\Users\tnswh\sunjo\bit_education_WPF\class2.2\obj\Debug\MainWindow.baml
+C:\Users\tnswh\sunjo\bit_education_WPF\class2.2\obj\Debug\class2.2.g.resources
+C:\Users\tnswh\sunjo\bit_education_WPF\class2.2\obj\Debug\class2._2.Properties.Resources.resources
+C:\Users\tnswh\sunjo\bit_education_WPF\class2.2\obj\Debug\class2.2.csproj.GenerateResource.cache
+C:\Users\tnswh\sunjo\bit_education_WPF\class2.2\obj\Debug\class2.2.csproj.CoreCompileInputs.cache
+C:\Users\tnswh\sunjo\bit_education_WPF\class2.2\obj\Debug\class2.2.exe
+C:\Users\tnswh\sunjo\bit_education_WPF\class2.2\obj\Debug\class2.2.pdb
