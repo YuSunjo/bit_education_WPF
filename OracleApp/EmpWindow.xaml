@@ -1,0 +1,83 @@
+﻿<Window x:Class="OracleApp.EmpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OracleApp"
+        mc:Ignorable="d"
+        Title="EmpWindow" Height="350" Width="550">
+    <!--  label 대신 TextBlock 안에 태그들을 쓸 수 있어서 좋음 -->
+    
+    <!-- stringFormat 하는 방법-->
+    <!--<TextBox Grid.Row="2" Grid.Column="1" MinWidth="150" Margin="3" Text="{Binding Path=hire_date, StringFormat={}{0:yyyy-MM-dd}}"></TextBox>-->
+    <!-- format앞에 붙여줄거면 {}없이 hire- 써줘도 되는데 없으면 {}써야함, d(short-date)만 써도 됨-->
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" HorizontalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0">EmployeeID</Label>    
+            <TextBox Grid.Column="1" MinWidth="300" Name="txtID" Margin="5" ></TextBox>
+            <Button Grid.Column="2" MaxWidth="100" Margin="5" IsDefault="True" Padding="5 0 5 0" Click="cmdGetEmployee_Click">getEmployee</Button>
+        </Grid>
+
+        <Border Grid.Row="1" Background="AliceBlue" Margin="10">
+            <Grid  HorizontalAlignment="Center" MinWidth="500" VerticalAlignment="Center" Name="gridEmployeeDetails">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="0" Grid.Column="0" Margin="3">FirstName</Label>
+                <Label Grid.Row="0" Grid.Column="2" Margin="3">LastName</Label>
+                <Label Grid.Row="1" Grid.Column="0" Margin="3">Email</Label>
+                <Label Grid.Row="1" Grid.Column="2" Margin="3">PhoneNumber</Label>
+                <Label Grid.Row="2" Grid.Column="0" Margin="3">HireDate</Label>
+
+                <Label Grid.Row="2" Grid.Column="2" Margin="3">JobId</Label>
+                <Label Grid.Row="3" Grid.Column="0" Margin="3">Salary</Label>
+                <Label Grid.Row="3" Grid.Column="2" Margin="3">Commission PCT</Label>
+                <Label Grid.Row="4" Grid.Column="0" Margin="3">ManagerID</Label>
+                <Label Grid.Row="4" Grid.Column="2" Margin="3">Department ID</Label>
+
+                <TextBox Grid.Row="0" Grid.Column="1" MinWidth="150" Margin="3" Text="{Binding Path=First_name}"></TextBox>
+                <TextBox Grid.Row="0" Grid.Column="3" MinWidth="150" Margin="3" Text="{Binding Path=Last_name}"></TextBox>
+                <TextBox Grid.Row="1" Grid.Column="1" MinWidth="150" Margin="3" Text="{Binding Path=Email}"></TextBox>
+                <TextBox Grid.Row="1" Grid.Column="3" MinWidth="150" Margin="3" Text="{Binding Path=Phone_number}"></TextBox>
+
+                <TextBox Grid.Row="2" Grid.Column="1" MinWidth="150" Margin="3" Text="{Binding Path=hire_date,
+                    Converter={StaticResource dateConverter}}"></TextBox>
+               
+                <TextBox Grid.Row="2" Grid.Column="3" MinWidth="150" Margin="3" Text="{Binding Path=JOB_ID}"></TextBox>
+                <TextBox Grid.Row="3" Grid.Column="1" MinWidth="150" Margin="3" Text="{Binding Path=Salary}"></TextBox>
+                <TextBox Grid.Row="3" Grid.Column="3" MinWidth="150" Margin="3" Text="{Binding Path=Commision_pct}"></TextBox>
+                <TextBox Grid.Row="4" Grid.Column="1" MinWidth="150" Margin="3" Text="{Binding Path=Manager_id}"></TextBox>
+                <TextBox Grid.Row="4" Grid.Column="3" MinWidth="150" Margin="3" Text="{Binding Path=Department_id}"></TextBox>
+
+                <Button Grid.Row="5" Grid.ColumnSpan="4" HorizontalAlignment="Right" Margin="0 10 0 10"
+                        Click="cmdConfirm_Click">확인</Button>
+            </Grid>
+        </Border>
+
+
+    </Grid>
+</Window>
+    
