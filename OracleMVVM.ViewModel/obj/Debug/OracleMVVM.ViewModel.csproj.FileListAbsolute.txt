@@ -1,0 +1,13 @@
+C:\Users\tnswh\sunjo\win32Ex\OracleMVVM.ViewModel\obj\Debug\OracleMVVM.ViewModel.Properties.Resources.resources
+C:\Users\tnswh\sunjo\win32Ex\OracleMVVM.ViewModel\obj\Debug\OracleMVVM.ViewModel.csproj.GenerateResource.cache
+C:\Users\tnswh\sunjo\win32Ex\OracleMVVM.ViewModel\obj\Debug\OracleMVVM.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\tnswh\sunjo\win32Ex\OracleMVVM.ViewModel\bin\Debug\OracleMVVM.ViewModel.dll
+C:\Users\tnswh\sunjo\win32Ex\OracleMVVM.ViewModel\bin\Debug\OracleMVVM.ViewModel.pdb
+C:\Users\tnswh\sunjo\win32Ex\OracleMVVM.ViewModel\bin\Debug\OracleMVVM.Model.dll
+C:\Users\tnswh\sunjo\win32Ex\OracleMVVM.ViewModel\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\tnswh\sunjo\win32Ex\OracleMVVM.ViewModel\bin\Debug\OracleMVVM.Model.pdb
+C:\Users\tnswh\sunjo\win32Ex\OracleMVVM.ViewModel\bin\Debug\OracleMVVM.Model.dll.config
+C:\Users\tnswh\sunjo\win32Ex\OracleMVVM.ViewModel\obj\Debug\OracleMVVM.ViewModel.csprojAssemblyReference.cache
+C:\Users\tnswh\sunjo\win32Ex\OracleMVVM.ViewModel\obj\Debug\OracleMVVM.ViewModel.csproj.CopyComplete
+C:\Users\tnswh\sunjo\win32Ex\OracleMVVM.ViewModel\obj\Debug\OracleMVVM.ViewModel.dll
+C:\Users\tnswh\sunjo\win32Ex\OracleMVVM.ViewModel\obj\Debug\OracleMVVM.ViewModel.pdb

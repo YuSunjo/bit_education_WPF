@@ -1,0 +1,9 @@
+﻿<Application x:Class="OracleMVVM.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:OracleMVVM"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <local:DateConverter x:Key="dateConverter"></local:DateConverter>
+    </Application.Resources>
+</Application>

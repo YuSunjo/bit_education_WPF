@@ -1,0 +1,25 @@
+	SoC (Seperate of Concern) 
+        	MVC Pattern (Model View Controller) 
+        WPF는 뷰와 컨트롤러 부분이 붙어 있어서 따로 작업하기 힘들다...
+        그래서 MVVM (Model view ModelView) 이 탄생함 
+
+뷰-xaml   model-로직   뷰모델- 뷰에서 받아서 모델에 전달, 모델에서 받아서 뷰에 전달 
+뷰는 ->뷰모델 
+뷰모델-> 모델 
+뷰->모델을 알 수 없음
+
+
+MVVMSample 
+1.처음에 프로젝트 이름 바꾸고
+2. namespace와 x:Class도 바꿈 
+3. 새프로젝트 눌러서 -> 사용자 지정 컨트롤 라이브러리
+4. theme지우고 class 주석과 상속도 지움 
+5. 새프로젝트 눌러서 -> 사용자 지정 컨트롤 라이브러리 xaml 지우기 
+6. 뷰는 뷰모델dll참조 , 뷰모델은 모델dll참조 
+7.뷰의 namespace와 cs에 viewModel 추가
+8.veiwModel에도 model 추가
+
+그다음 프로젝트 진행 
+model에 클래스 만들면 internal인데 viewModel에서 접근하기 위해 public을 써줘야 한다. 
+
+RelayCommand 만들기(이거는 뭘하든 고정)
