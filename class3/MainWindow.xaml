@@ -14,23 +14,23 @@
     <StackPanel Margin="5">
 
         
-        --><!-- <Slider Name="sliderFontSize" Margin="3" Minimum="1" Maximum="40" Value="10" TickFrequency="1" 
-                IsSnapToTickEnabled="True" TickPlacement="TopLeft"></Slider>   --><!--
+         --><!--<Slider Name="sliderFontSize" Margin="3" Minimum="1" Maximum="40" Value="10" TickFrequency="1" 
+                IsSnapToTickEnabled="True" TickPlacement="TopLeft"></Slider>--><!--   
 
         <Slider Name="sliderFontSize" Margin="3" Minimum="1" Maximum="40" 
                 Value="{Binding Source={StaticResource myclass}, Path=Size,Mode=OneWayToSource}" TickFrequency="1" 
                 IsSnapToTickEnabled="True" TickPlacement="TopLeft"></Slider>
 
 
-         --><!-- FontSize="{Binding ElementName=sliderFontSize, Path=Value, Mode=TwoWay}"  --><!--
+          --><!--FontSize="{Binding ElementName=sliderFontSize, Path=Value, Mode=TwoWay}"--><!--  
         <TextBlock Margin="10" Name="lblSampleText" 
            Text="Simple Text">
         </TextBlock>
 
         <StackPanel Orientation="Horizontal" >
-            --><!--<Button Margin="5" Padding="3" Click="cmd_SetSmall">Set to Small</Button>
+            <Button Margin="5" Padding="3" Click="cmd_SetSmall">Set to Small</Button>
             <Button Margin="5" Padding="3" Click="cmd_SetNormal">Set to Normal</Button>
-            <Button Margin="5" Padding="3" Click="cmd_SetLarge">Set to Large</Button>--><!--
+            <Button Margin="5" Padding="3" Click="cmd_SetLarge">Set to Large</Button>
             
             <Button Margin="5" Padding="3" Click="cmd_ShowProperty">Show Size</Button>
         </StackPanel>
@@ -201,7 +201,7 @@
 
     <!-- fontFamily가 style속성안에 있는건가? -->
     <!-- property를 어떻게 주나? -->
-    <Window.Resources>
+    <!--<Window.Resources>
         <Style x:Key="BigFontButtonStyle">
             <Setter Property="ItemsControl.FontFamily" Value="Times New Roman"></Setter>
             <Setter Property="ItemsControl.FontSize" Value="18"></Setter>
@@ -219,7 +219,7 @@
         <Button Padding="5" Margin="5" Style="{x:Null}">A Normal Button</Button>
         <TextBlock Margin="5">more normal content</TextBlock>
         <Button Padding="5" Margin="5">another Customized button</Button>
-    </StackPanel>
+    </StackPanel>-->
     
     
 

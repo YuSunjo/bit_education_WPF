@@ -232,7 +232,7 @@
         <Button Click="cmdClear_Click" Grid.Row="3" HorizontalAlignment="Right" Margin="5" Padding="3">Clear List</Button>
     </Grid>-->
 
-    <Grid Margin="3" >
+    <!--<Grid Margin="3" >
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
@@ -263,7 +263,7 @@
         <ListBox Margin="5" Name="lstMessages" Grid.Row="1"></ListBox>
         <CheckBox Margin="5" Grid.Row="2" Name="chkHandle">Handle first event</CheckBox>
         <Button Click="cmdClear_Click" Grid.Row="3" HorizontalAlignment="Right" Margin="5" Padding="3">Clear List</Button>
-    </Grid>
+    </Grid>-->
 
 
 

@@ -1,0 +1,7 @@
+C:\Users\tnswh\sunjo\bit_education_WPF\SampleMVVM.Model\bin\Debug\SampleMVVM.Model.dll
+C:\Users\tnswh\sunjo\bit_education_WPF\SampleMVVM.Model\bin\Debug\SampleMVVM.Model.pdb
+C:\Users\tnswh\sunjo\bit_education_WPF\SampleMVVM.Model\obj\Debug\SampleMVVM.Model.Properties.Resources.resources
+C:\Users\tnswh\sunjo\bit_education_WPF\SampleMVVM.Model\obj\Debug\SampleMVVM.Model.csproj.GenerateResource.cache
+C:\Users\tnswh\sunjo\bit_education_WPF\SampleMVVM.Model\obj\Debug\SampleMVVM.Model.csproj.CoreCompileInputs.cache
+C:\Users\tnswh\sunjo\bit_education_WPF\SampleMVVM.Model\obj\Debug\SampleMVVM.Model.dll
+C:\Users\tnswh\sunjo\bit_education_WPF\SampleMVVM.Model\obj\Debug\SampleMVVM.Model.pdb

@@ -13,3 +13,4 @@ C:\Users\tnswh\sunjo\bit_education_WPF\class3\obj\Debug\class3.csproj.GenerateRe
 C:\Users\tnswh\sunjo\bit_education_WPF\class3\obj\Debug\class3.csproj.CoreCompileInputs.cache
 C:\Users\tnswh\sunjo\bit_education_WPF\class3\obj\Debug\class3.exe
 C:\Users\tnswh\sunjo\bit_education_WPF\class3\obj\Debug\class3.pdb
+C:\Users\tnswh\sunjo\bit_education_WPF\class3\obj\Debug\GeneratedInternalTypeHelper.g.cs

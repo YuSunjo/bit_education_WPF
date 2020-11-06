@@ -73,19 +73,19 @@ namespace class3
         //    MessageBox.Show("" + m.Size);
         //}
 
-        //private void cmd_SetSmall(object sender, RoutedEventArgs e)
-        //{
-        //    sliderFontSize.Value = 2;
-        //}
+        private void cmd_SetSmall(object sender, RoutedEventArgs e)
+        {
+            sliderFontSize.Value = 2;
+        }
 
-        //private void cmd_SetNormal(object sender, RoutedEventArgs e)
-        //{
-        //    sliderFontSize.Value = this.FontSize;
-        //}
+        private void cmd_SetNormal(object sender, RoutedEventArgs e)
+        {
+            sliderFontSize.Value = this.FontSize;
+        }
 
-        //private void cmd_SetLarge(object sender, RoutedEventArgs e)
-        //{
-        //    lblSampleText.FontSize = 30;
-        //}
+        private void cmd_SetLarge(object sender, RoutedEventArgs e)
+        {
+            lblSampleText.FontSize = 30;
+        }
     }
 }
